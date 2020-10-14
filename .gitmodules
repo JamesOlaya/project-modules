@@ -4,3 +4,69 @@
 [submodule "Themes/Adminlte"]
 	path = Themes/Adminlte
 	url = https://github.com/imagina/imaginacmsadmin-theme.git
+[submodule "Modules/Core"]
+	path = Modules/Core
+	url = https://github.com/imagina/imaginacms-core.git
+[submodule "Modules/Dashboard"]
+	path = Modules/Dashboard
+	url = https://github.com/imagina/imaginacms-dashboard.git
+[submodule "Modules/Ibanners"]
+	path = Modules/Ibanners
+	url = https://github.com/imagina/imaginacms-ibanners.git
+[submodule "Modules/Iblog"]
+	path = Modules/Iblog
+	url = https://github.com/imagina/imaginacms-iblog.git
+[submodule "Modules/Icommerce"]
+	path = Modules/Icommerce
+	url = https://github.com/imagina/imaginacms-icommerce.git
+[submodule "Modules/Icommerceagree"]
+	path = Modules/Icommerceagree
+	url = https://github.com/imagina/imaginacms-icommerceagree.git
+[submodule "Modules/Icommercecheckmo"]
+	path = Modules/Icommercecheckmo
+	url = https://github.com/imagina/imaginacms-icommercecheckmo.git
+[submodule "Modules/Icurrency"]
+	path = Modules/Icurrency
+	url = https://github.com/imagina/imaginacms-icurrency.git
+[submodule "Modules/Iforms"]
+	path = Modules/Iforms
+	url = https://github.com/imagina/imaginacms-iforms.git
+[submodule "Modules/Ihelpers"]
+	path = Modules/Ihelpers
+	url = https://github.com/imagina/imaginacms-ihelpers.git
+[submodule "Modules/Ilocations"]
+	path = Modules/Ilocations
+	url = https://github.com/imagina/imaginacms-ilocations.git
+[submodule "Modules/Iprofile"]
+	path = Modules/Iprofile
+	url = https://github.com/imagina/imaginacms-iprofile.git
+[submodule "Modules/Iredirect"]
+	path = Modules/Iredirect
+	url = https://github.com/imagina/imaginacms-iredirect.git
+[submodule "Modules/Isearch"]
+	path = Modules/Isearch
+	url = https://github.com/imagina/imaginacms-isearch.git
+[submodule "Modules/Isite"]
+	path = Modules/Isite
+	url = https://github.com/imagina/imaginacms-isite.git
+[submodule "Modules/Media"]
+	path = Modules/Media
+	url = https://github.com/imagina/imaginacms-imedia.git
+[submodule "Modules/Menu"]
+	path = Modules/Menu
+	url = https://github.com/imagina/imaginacms-imenu.git
+[submodule "Modules/Notification"]
+	path = Modules/Notification
+	url = https://github.com/imagina/imaginacms-inotifications.git
+[submodule "Modules/Page"]
+	path = Modules/Page
+	url = https://github.com/imagina/imaginacms-page.git
+[submodule "Modules/Setting"]
+	path = Modules/Setting
+	url = https://github.com/imagina/imaginacms-setting.git
+[submodule "Modules/Slider"]
+	path = Modules/Slider
+	url = https://github.com/imagina/imaginacms-slider.git
+[submodule "Modules/User"]
+	path = Modules/User
+	url = https://github.com/imagina/imaginacms-user.git

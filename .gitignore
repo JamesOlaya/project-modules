@@ -21,7 +21,7 @@
 /Themes/AdminLte/node_modules
 
 #modules
-#!/Modules
+!/Modules
 
 #other files
 !.gitignore
