@@ -1,0 +1,6 @@
+[submodule "Themes/Flatly"]
+	path = Themes/Flatly
+	url = https://github.com/imagina/imaginacms-theme.git
+[submodule "Themes/Adminlte"]
+	path = Themes/Adminlte
+	url = https://github.com/imagina/imaginacmsadmin-theme.git

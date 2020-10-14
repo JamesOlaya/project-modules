@@ -15,10 +15,10 @@
 /Themes/*
 #!/Themes/Imagina2018
 /Themes/Imagina2018/node_modules
-#!/Themes/Flatly
+!/Themes/Flatly
 /Themes/Flatly/node_modules
-#!/Themes/ImaginaTheme
-/Themes/ImaginaTheme/node_modules
+!/Themes/AdminLte
+/Themes/AdminLte/node_modules
 
 #modules
 #!/Modules
