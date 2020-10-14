@@ -1,0 +1,29 @@
+# Ignore everything
+/*
+
+# But not these files
+
+#Folders and files
+!/bootstrap
+!/database
+!/tests
+!artisan
+!/app
+!/config
+!/routes
+!/Themes
+/Themes/*
+#!/Themes/Imagina2018
+/Themes/Imagina2018/node_modules
+#!/Themes/Flatly
+/Themes/Flatly/node_modules
+#!/Themes/ImaginaTheme
+/Themes/ImaginaTheme/node_modules
+
+#modules
+#!/Modules
+
+#other files
+!.gitignore
+!composer.json
+!package.json
