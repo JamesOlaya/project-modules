@@ -43,9 +43,6 @@ return [
     'template-ignored-directories' => [
         'layouts',
         'partials',
-        'pages',
-        'blog',
-        'blocksrc',
     ],
     /*
     |--------------------------------------------------------------------------
