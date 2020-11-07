@@ -73,3 +73,6 @@
 [submodule "Modules/Idocs"]
 	path = Modules/Idocs
 	url = https://github.com/imagina/imaginacms-idocs.git
+[submodule "Modules/Iplace"]
+	path = Modules/Iplace
+	url = https://github.com/imagina/imaginacms-iplace.git
