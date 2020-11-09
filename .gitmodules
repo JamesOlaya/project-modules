@@ -10,9 +10,6 @@
 [submodule "Modules/Dashboard"]
 	path = Modules/Dashboard
 	url = https://github.com/imagina/imaginacms-dashboard.git
-[submodule "Modules/Ibanners"]
-	path = Modules/Ibanners
-	url = https://github.com/imagina/imaginacms-ibanners.git
 [submodule "Modules/Iblog"]
 	path = Modules/Iblog
 	url = https://github.com/imagina/imaginacms-iblog.git
