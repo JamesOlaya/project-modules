@@ -76,3 +76,12 @@
 [submodule "Modules/Iplace"]
 	path = Modules/Iplace
 	url = https://github.com/imagina/imaginacms-iplace.git
+[submodule "Modules/Tag"]
+	path = Modules/Tag
+	url = https://github.com/imagina/imaginacms-tag
+[submodule "Modules/Workshop"]
+	path = Modules/Workshop
+	url = https://github.com/imagina/imaginacms-workshop.git
+[submodule "Modules/Translation"]
+	path = Modules/Translation
+	url = https://github.com/imagina/imaginacms-translation.git
