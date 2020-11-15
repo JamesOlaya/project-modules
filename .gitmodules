@@ -85,3 +85,9 @@
 [submodule "Modules/Translation"]
 	path = Modules/Translation
 	url = https://github.com/imagina/imaginacms-translation.git
+[submodule "Modules/Icommercexpay"]
+	path = Modules/Icommercexpay
+	url = https://github.com/imagina/imaginacms-icommerceXpay.git
+[submodule "Modules/Icommercepayu"]
+	path = Modules/Icommercepayu
+	url = https://github.com/imagina/imaginacms-icommercePayu.git
