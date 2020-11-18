@@ -91,3 +91,6 @@
 [submodule "Modules/Icommercepayu"]
 	path = Modules/Icommercepayu
 	url = https://github.com/imagina/imaginacms-icommercePayu.git
+[submodule "Modules/Icommerceflatrate"]
+	path = Modules/Icommerceflatrate
+	url = https://github.com/imagina/asgardcms-Icommerceflatrate.git
