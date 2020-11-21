@@ -1,29 +1,33 @@
-# Ignore everything
-/*
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+.env
+composer.lock
+package-lock.json
+yarn.lock
+.phpunit.result.cache
+.php_cs.cache
+.idea
 
-# But not these files
+#Ignore /public but not...
+!/public/.htaccess
+!/public/index.php
+!/public/robots.txt
+!/public/mix-manifest.json
 
-#Folders and files
-!/bootstrap
-!/database
-!/tests
-!artisan
-!/app
-!/config
-!/routes
-!/Themes
+#Themes but not ImaginaTheme
 /Themes/*
-#!/Themes/Imagina2018
-/Themes/Imagina2018/node_modules
-!/Themes/Flatly
-/Themes/Flatly/node_modules
-!/Themes/AdminLte
-/Themes/AdminLte/node_modules
+!/Themes/ImaginaTheme
 
-#modules
-!/Modules
+#Modules but not Modules Icustom
+/Modules/*
+!Modules/Icustom
 
-#other files
-!.gitignore
-!composer.json
-!package.json
+#node_modules in every folder
+node_modules
