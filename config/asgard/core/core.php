@@ -82,7 +82,6 @@ return [
     'admin-assets' => [
         // Css
         'bootstrap.css' => ['theme' => 'vendor/bootstrap/dist/css/bootstrap.min.css'],
-        'font-awesome.css' => ['cdn' => 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'],
         'alertify.core.css' => ['theme' => 'css/vendor/alertify/alertify.core.css'],
         'alertify.default.css' => ['theme' => 'css/vendor/alertify/alertify.default.css'],
         'dataTables.bootstrap.css' => ['theme' => 'vendor/datatables.net-bs/css/dataTables.bootstrap.min.css'],
@@ -90,6 +89,7 @@ return [
         'AdminLTE.css' => ['theme' => 'vendor/admin-lte/dist/css/AdminLTE.css'],
         'AdminLTE.all.skins.css' => ['theme' => 'vendor/admin-lte/dist/css/skins/_all-skins.min.css'],
         'asgard.css' => ['theme' => 'css/asgard.css'],
+        'flag-icon.css' => ['theme' => 'vendor/flag-icon-css/css/flag-icon.min.css'],
         //'gridstack.css' => ['module' => 'dashboard:vendor/gridstack/dist/gridstack.min.css'],
         'gridstack.css' => ['module' => 'dashboard:gridstack/gridstack.min.css'],
         'daterangepicker.css' => ['theme' => 'vendor/admin-lte/plugins/daterangepicker/daterangepicker-bs3.css'],
@@ -100,6 +100,8 @@ return [
         'simplemde.css' => ['theme' => 'vendor/simplemde/dist/simplemde.min.css'],
         // Javascript
         'bootstrap.js' => ['theme' => 'vendor/bootstrap/dist/js/bootstrap.min.js'],
+        'font-awesome.js' => ['cdn' => 'https://use.fontawesome.com/releases/v5.7.1/js/all.js'],
+        'font-awesome-v4-shims.js' => ['cdn' => 'https://use.fontawesome.com/releases/v5.7.1/js/v4-shims.js'],
         'mousetrap.js' => ['theme' => 'js/vendor/mousetrap.min.js'],
         'alertify.js' => ['theme' => 'js/vendor/alertify/alertify.js'],
         'icheck.js' => ['theme' => 'vendor/iCheck/icheck.min.js'],
@@ -136,7 +138,6 @@ return [
     'admin-required-assets' => [
         'css' => [
             'bootstrap.css',
-            'font-awesome.css',
             'dataTables.bootstrap.css',
             'icheck.blue.css',
             'AdminLTE.css',
@@ -145,9 +146,12 @@ return [
             'pace.css',
             'selectize-default.css',
             'asgard.css',
+            'flag-icon.css',
         ],
         'js' => [
             'bootstrap.js',
+            'font-awesome.js',
+            'font-awesome-v4-shims.js',
             'mousetrap.js',
             'icheck.js',
             'jquery.dataTables.js',

@@ -16,10 +16,8 @@ yarn.lock
 .idea
 
 #Ignore /public but not...
-!/public/.htaccess
-!/public/index.php
-!/public/robots.txt
-!/public/mix-manifest.json
+/public/themes/adminlte
+/public/modules
 
 #Themes but not ImaginaTheme
 /Themes/*
