@@ -24,8 +24,8 @@ yarn.lock
 !/Themes/ImaginaTheme
 
 #Modules but not Modules Icustom
-/Modules/*
-!Modules/Icustom
+#/Modules/*
+#!Modules/Icustom
 
 #node_modules in every folder
 node_modules
