@@ -9,18 +9,17 @@ return [
   'orders' => [],
   //Extra field to crud product categories
   'productCategories' => [
-    //Image 3
-    'mediasSingle3' => [
-      'name' => 'mediasSingle',
+    'tertiaryimage' => [
       'value' => (object)[],
+      'name' => 'mediasSingle',
       'type' => 'media',
       'props' => [
-        'label' => '(trans)isite::common.settings.logo1',
+        'label' => 'Icono Menú 1',
         'zone' => 'tertiaryimage',
         'entity' => "Modules\Icommerce\Entities\Category",
         'entityId' => null
       ]
-    ],
+    ]
   ],
   //Extra field to crud product categories
   'productDiscounts' => [],

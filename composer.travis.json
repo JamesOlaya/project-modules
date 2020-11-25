@@ -34,8 +34,15 @@
         "tightenco/ziggy": "^0.9.4",
         "typicms/nestablecollection": "^1.1",
         "venturecraft/revisionable": "^1.35",
-        "yajra/laravel-datatables-oracle": "~9.0"
-
+        "yajra/laravel-datatables-oracle": "~9.0",
+        "laravel/passport": "^10.0",
+        "laravel/socialite": "^5.1",
+        "livewire/livewire": "^2.3",
+        "kalnoy/nestedset": "^5.0",
+        "pusher/pusher-php-server": "^4.1",
+        "cviebrock/eloquent-sluggable": "^8.0",
+        "jantinnerezo/livewire-alert":"^2.0",
+        "anhskohbo/no-captcha":"^3.0"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.5",

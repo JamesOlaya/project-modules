@@ -7,7 +7,7 @@ return [
     'type' => 'input',
     'isTranslatable' => true,
     'props' => [
-      'label' => '(trans)dashboard::dashboard.welcome-title',
+      'label' => 'dashboard::dashboard.welcome-title',
     ],
   ],
   'welcome-description' => [
@@ -16,7 +16,7 @@ return [
     'type' => 'input',
     'isTranslatable' => true,
     'props' => [
-      'label' => '(trans)dashboard::dashboard.welcome-description',
+      'label' => 'dashboard::dashboard.welcome-description',
       'type' => 'textarea',
       'rows' => 3,
     ],
@@ -26,7 +26,7 @@ return [
     'value' => null,
     'type' => 'checkbox',
     'props' => [
-      'label' => '(trans)dashboard::dashboard.welcome-enabled'
+      'label' => 'dashboard::dashboard.welcome-enabled'
     ],
   ],
 ];
