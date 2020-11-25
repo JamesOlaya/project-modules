@@ -29,6 +29,11 @@ if [ $# -gt 0 ]; then
         shift 1
         EXEC_CMD="cd /var/www/html && composer $@"
         $COMPOSE exec app bash -c "$EXEC_CMD"
+
+    elif [ "$1" == "composer-travis" ]; then
+        shift 1
+        EXEC_CMD="cd /var/www/html && COMPOSER=composer.travis.json COMPOSER_MEMORY_LIMIT=-1 composer $@"
+        $COMPOSE exec app bash -c "$EXEC_CMD"
     elif [ "$1" == "yarn" ]; then
         shift 1
         $COMPOSE run --rm -w /var/www/html node yarn $@

@@ -94,3 +94,6 @@
 [submodule "Modules/Icommercecredibanco"]
 	path = Modules/Icommercecredibanco
 	url = https://github.com/imagina/imaginacms-icommerceCredibanco.git
+[submodule "Modules/Iplaces"]
+	path = Modules/Iplaces
+	url = https://github.com/imagina/imaginacms-iplace.git
