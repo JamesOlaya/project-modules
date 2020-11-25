@@ -45,6 +45,9 @@
         "anhskohbo/no-captcha":"^3.0",
         "willvincent/laravel-rateable": "^2.3"
     },
+    "conflict": {
+        "lcobucci/jwt": "3.4.0"
+    },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.5",
         "fzaninotto/faker": "^1.9.1",

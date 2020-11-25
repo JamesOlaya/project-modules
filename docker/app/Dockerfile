@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:18.04
 
 MAINTAINER Julien Tant <julien@craftyx.fr>
 
@@ -10,6 +10,8 @@ RUN apt-get update \
 ENV LANG=en_US.UTF-8
 ENV LANGUAGE=en_US:en
 ENV LC_ALL=en_US.UTF-8
+
+RUN ln -fs /usr/share/zoneinfo/America/New_York /etc/localtime
 
 RUN add-apt-repository ppa:nginx/stable \
     && add-apt-repository ppa:ondrej/php \
@@ -31,8 +33,10 @@ RUN add-apt-repository ppa:nginx/stable \
         php7.3-gd \
         php7.3-curl \
         curl \
-    && mkdir /run/php \
+        gpg-agent \
     && curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer \
+    && curl -sL https://deb.nodesource.com/setup_10.x | bash \
+    && apt-get install -y nodejs \
     && version=$(php -r "echo PHP_MAJOR_VERSION.PHP_MINOR_VERSION;") \
     #&& curl -A "Docker" -o /tmp/blackfire-probe.tar.gz -D - -L -s https://blackfire.io/api/v1/releases/probe/php/linux/amd64/$version \
     #&& tar zxpf /tmp/blackfire-probe.tar.gz -C /tmp \
@@ -57,8 +61,8 @@ RUN /etc/init.d/php7.3-fpm restart
 
 RUN mkdir /tmp/certgen
 WORKDIR /tmp/certgen
-RUN openssl genrsa -des3 -passout pass:x -out server.pass.key 2048 \
-    && openssl rsa -passin pass:x -in server.pass.key -out server.key \
+RUN openssl genrsa -des3 -passout pass:xxxxx -out server.pass.key 2048 \
+    && openssl rsa -passin pass:xxxxx -in server.pass.key -out server.key \
     && rm server.pass.key \
     && openssl req -new -key server.key -out server.csr -subj "/CN=asgardcms.com" \
     && openssl x509 -req -days 365 -in server.csr -signkey server.key -out server.crt \
