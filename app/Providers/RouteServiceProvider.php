@@ -36,6 +36,16 @@ class RouteServiceProvider extends ServiceProvider
     {
         parent::boot();
         $this->configureRateLimiting();
+
+        //IMAGINA - TODO: Is there a better location to force base_url ?
+        /** @var \Illuminate\Routing\UrlGenerator $url */
+        $url = $this->app['url'];
+        // Force the application URL
+        $url->forceRootUrl(config('app.url'));
+
+        $this->app->booted(function () {
+            $this->map();
+        });
     }
 
     /**
