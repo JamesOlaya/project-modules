@@ -20,8 +20,8 @@ yarn.lock
 /public/modules
 
 #Themes but not ImaginaTheme
-/Themes/*
-!/Themes/ImaginaTheme
+#/Themes/*
+#!/Themes/ImaginaTheme
 
 #Modules but not Modules Icustom
 #/Modules/*
