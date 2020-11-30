@@ -32,6 +32,7 @@ RUN add-apt-repository ppa:nginx/stable \
         php7.3-zip \
         php7.3-gd \
         php7.3-curl \
+        php-apcu-bc \
         curl \
         gpg-agent \
     && curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer \
@@ -54,8 +55,8 @@ COPY php-fpm.conf /etc/php/7.3/fpm/php-fpm.conf
 COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
 COPY laravel.ini /etc/php/7.3/fpm/conf.d/laravel.ini
-#COPY disabled-xdebug.ini /etc/php/7.1/mods-available/xdebug.ini
-COPY enabled-xdebug.ini /etc/php/7.3/mods-available/xdebug.ini
+COPY disabled-xdebug.ini /etc/php/7.1/mods-available/xdebug.ini
+#COPY enabled-xdebug.ini /etc/php/7.3/mods-available/xdebug.ini
 
 RUN /etc/init.d/php7.3-fpm restart
 
