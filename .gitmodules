@@ -97,3 +97,9 @@
 [submodule "Modules/Iplaces"]
 	path = Modules/Iplaces
 	url = https://github.com/imagina/imaginacms-iplace.git
+[submodule "Modules/Ichat"]
+	path = Modules/Ichat
+	url = https://github.com/imagina/imaginacms-ichat.git
+[submodule "Modules/Ievent"]
+	path = Modules/Ievent
+	url = https://github.com/imagina/imaginacms-ievent.git
