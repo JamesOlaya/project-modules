@@ -17,6 +17,7 @@ yarn.lock
 
 #Ignore /public but not...
 /public/themes/adminlte
+/public/themes/flatly
 /public/modules
 
 #Themes but not ImaginaTheme

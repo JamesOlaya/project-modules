@@ -28,5 +28,8 @@
     "Isite": true,
     "Notification": true,
     "Slider": true,
-    "Iplaces": true
+    "Iplaces": true,
+    "Ichat": true,
+    "Icustom": true,
+    "Ievent": true
 }
