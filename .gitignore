@@ -18,11 +18,12 @@ yarn.lock
 #Ignore /public but not...
 /public/themes/adminlte
 /public/themes/flatly
+/public/themes/imaginatheme
 /public/modules
 
 #Themes but not ImaginaTheme
-#/Themes/*
-#!/Themes/ImaginaTheme
+/Themes/*
+!/Themes/Adminlte
 
 #Modules but not Modules Icustom
 #/Modules/*
