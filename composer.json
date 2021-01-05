@@ -44,7 +44,8 @@
         "typicms/nestablecollection": "^1.1",
         "venturecraft/revisionable": "^1.35",
         "willvincent/laravel-rateable": "^2.3",
-        "yajra/laravel-datatables-oracle": "~9.0"
+        "yajra/laravel-datatables-oracle": "~9.0",
+        "imagina/laravel-responsecache": "^6.6"
     },
     "conflict": {
         "lcobucci/jwt": "3.4.0"
