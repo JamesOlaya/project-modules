@@ -20,6 +20,7 @@ yarn.lock
 /public/themes/flatly
 /public/themes/imaginatheme
 /public/modules
+/public/assets
 
 #Themes but not ImaginaTheme
 /Themes/*
