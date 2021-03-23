@@ -103,3 +103,9 @@
 [submodule "Modules/Ievent"]
 	path = Modules/Ievent
 	url = https://github.com/imagina/imaginacms-ievent.git
+[submodule "Modules/Iplan"]
+	path = Modules/Iplan
+	url = https://github.com/imagina/imaginacms-iplan.git
+[submodule "Modules/Iad"]
+	path = Modules/Iad
+	url = https://github.com/imagina/imaginacms-iad.git
