@@ -31,5 +31,7 @@
     "Iplaces": true,
     "Ichat": true,
     "Icustom": true,
-    "Ievent": true
+    "Ievent": true,
+    "Iad": true,
+    "Iplan": true
 }
