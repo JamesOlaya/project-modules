@@ -20,6 +20,7 @@
         "fideloper/proxy": "^4.4",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
+        "imagina/laravel-responsecache": "^6.6",
         "imagina/stylist": "^3.0",
         "intervention/image": "^2.5",
         "jantinnerezo/livewire-alert": "^2.0",
@@ -32,6 +33,7 @@
         "laravel/ui": "^3.0",
         "laravelcollective/html": "^6.0",
         "livewire/livewire": "^2.3",
+        "maatwebsite/excel": "^3.1",
         "maatwebsite/laravel-sidebar": "^2.4",
         "mcamara/laravel-localization": "^1.6",
         "nwidart/laravel-menus": "^7.0",
@@ -44,8 +46,7 @@
         "typicms/nestablecollection": "^1.1",
         "venturecraft/revisionable": "^1.35",
         "willvincent/laravel-rateable": "^2.3",
-        "yajra/laravel-datatables-oracle": "~9.0",
-        "imagina/laravel-responsecache": "^6.6"
+        "yajra/laravel-datatables-oracle": "~9.0"
     },
     "conflict": {
         "lcobucci/jwt": "3.4.0"
