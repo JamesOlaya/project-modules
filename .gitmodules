@@ -109,3 +109,6 @@
 [submodule "Modules/Iad"]
 	path = Modules/Iad
 	url = https://github.com/imagina/imaginacms-iad.git
+[submodule "Modules/Icheckin"]
+	path = Modules/Icheckin
+	url = https://github.com/imagina/imaginacms-icheckin.git
