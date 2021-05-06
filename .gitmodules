@@ -112,3 +112,6 @@
 [submodule "Modules/Icheckin"]
 	path = Modules/Icheckin
 	url = https://github.com/imagina/imaginacms-icheckin.git
+[submodule "Modules/Ibitrix"]
+	path = Modules/Ibitrix
+	url = https://github.com/imagina/imaginacms-ibitrix.git

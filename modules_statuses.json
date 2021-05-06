@@ -33,5 +33,6 @@
     "Icustom": true,
     "Ievent": true,
     "Iad": true,
-    "Iplan": true
+    "Iplan": true,
+    "Ibitrix": true
 }
