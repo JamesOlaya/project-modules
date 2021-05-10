@@ -34,5 +34,7 @@
     "Ievent": true,
     "Iad": true,
     "Iplan": true,
-    "Ibitrix": true
+    "Ibitrix": true,
+    "Iappointment": true,
+    "Icheckin": true
 }
