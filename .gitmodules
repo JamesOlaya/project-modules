@@ -115,3 +115,6 @@
 [submodule "Modules/Ibitrix"]
 	path = Modules/Ibitrix
 	url = https://github.com/imagina/imaginacms-ibitrix.git
+[submodule "Modules/Iappointment"]
+	path = Modules/Iappointment
+	url = https://github.com/imagina/imaginacms-iappointment.git
