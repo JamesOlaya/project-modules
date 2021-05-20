@@ -36,5 +36,6 @@
     "Iplan": true,
     "Ibitrix": true,
     "Iappointment": true,
-    "Icheckin": true
+    "Icheckin": true,
+    "Iwhmcs": true
 }
