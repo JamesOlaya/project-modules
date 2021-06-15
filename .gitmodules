@@ -118,3 +118,21 @@
 [submodule "Modules/Iwhmcs"]
 	path = Modules/Iwhmcs
 	url = https://github.com/imagina/iwhmcs.git
+[submodule "Modules/Icommercepaypal"]
+	path = Modules/Icommercepaypal
+	url = https://github.com/imagina/imaginacms-icommercePaypal.git
+[submodule "Modules/Icommerceepayco"]
+	path = Modules/Icommerceepayco
+	url = https://github.com/imagina/imaginacms-icommerceEpayco.git
+[submodule "Modules/Icommercewompi"]
+	path = Modules/Icommercewompi
+	url = https://github.com/imagina/imaginacms-icommerceWompi.git
+[submodule "Modules/Icommercepricelist"]
+	path = Modules/Icommercepricelist
+	url = https://github.com/imagina/imaginacms-icommercepricelist.git
+[submodule "Modules/Icommercefreeshipping"]
+	path = Modules/Icommercefreeshipping
+	url = https://github.com/imagina/imaginacms-icommerceFreeShipping.git
+[submodule "Modules/Wishlistable"]
+	path = Modules/Wishlistable
+	url = https://github.com/imagina/imaginacms-wishlistable.git
