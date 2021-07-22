@@ -136,3 +136,6 @@
 [submodule "Modules/Wishlistable"]
 	path = Modules/Wishlistable
 	url = https://github.com/imagina/imaginacms-wishlistable.git
+[submodule "Modules/Qreable"]
+	path = Modules/Qreable
+	url = https://github.com/imagina/imaginacms-qreable.git
