@@ -139,3 +139,6 @@
 [submodule "Modules/Qreable"]
 	path = Modules/Qreable
 	url = https://github.com/imagina/imaginacms-qreable.git
+[submodule "Modules/Ischedulable"]
+	path = Modules/Ischedulable
+	url = https://github.com/imagina/imaginacms-ischedulable.git
