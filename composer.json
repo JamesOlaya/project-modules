@@ -37,7 +37,6 @@
         "typicms/nestablecollection": "^1.1",
         "venturecraft/revisionable": "^1.35",
         "laravel/passport": "^10.0",
-        "kalnoy/nestedset": "^5.0",
         "livewire/livewire": "^2.3",
         "pusher/pusher-php-server": "^4.1",
         "cviebrock/eloquent-sluggable": "^8.0",
@@ -80,6 +79,11 @@
         "imagina/iplaces-module": "v8.x-dev",
         "imagina/iplan-module": "v8.x-dev",
         "imagina/iredirect-module": "v8.x-dev",
+        "imagina/ibooking-module": "v8.x-dev",
+        "imagina/ichat-module": "v8.x-dev",
+        "imagina/ischedulable-module": "v8.x-dev",
+        "imagina/qreable-module": "v8.x-dev",
+        "imagina/wishlistable-module": "v8.x-dev",
 
 
         "imagina/flatly-theme": "v8.x-dev",

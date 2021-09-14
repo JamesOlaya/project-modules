@@ -37,5 +37,10 @@
     "Ibitrix": true,
     "Iappointment": true,
     "Icheckin": true,
-    "Iwhmcs": true
+    "Iwhmcs": true,
+    "Imeeting": true,
+    "Ischedulable": true,
+    "Qreable": true,
+    "Wishlistable": true,
+    "Ibooking": true
 }
