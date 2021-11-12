@@ -145,3 +145,6 @@
 [submodule "Modules/Ibooking"]
 	path = Modules/Ibooking
 	url = https://github.com/imagina/imaginacms-ibooking.git
+[submodule "Modules/Ifillable"]
+	path = Modules/Ifillable
+	url = https://github.com/imagina/imaginacms-ifillable.git
