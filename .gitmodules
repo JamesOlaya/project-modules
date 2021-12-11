@@ -154,3 +154,6 @@
 [submodule "Modules/Rateable"]
 	path = Modules/Rateable
 	url = https://github.com/imagina/imaginacms-rateable.git
+[submodule "Modules/Ibinnacle"]
+	path = Modules/Ibinnacle
+	url = https://github.com/imagina/imaginacms-binnacle.git
