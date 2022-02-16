@@ -160,3 +160,6 @@
 [submodule "Modules/Icredit"]
 	path = Modules/Icredit
 	url = https://github.com/imagina/imaginacms-icredit.git
+[submodule "Modules/Iauctions"]
+	path = Modules/Iauctions
+	url = https://github.com/imagina/imaginacms-iauctions.git
