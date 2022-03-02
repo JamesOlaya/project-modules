@@ -163,3 +163,6 @@
 [submodule "Modules/Iauctions"]
 	path = Modules/Iauctions
 	url = https://github.com/imagina/imaginacms-iauctions.git
+[submodule "Modules/Igamification"]
+	path = Modules/Igamification
+	url = https://github.com/imagina/imaginacms-igamification.git
