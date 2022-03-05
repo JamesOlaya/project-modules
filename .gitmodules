@@ -166,3 +166,6 @@
 [submodule "Modules/Igamification"]
 	path = Modules/Igamification
 	url = https://github.com/imagina/imaginacms-igamification.git
+[submodule "Modules/Icommercestripe"]
+	path = Modules/Icommercestripe
+	url = https://github.com/imagina/imaginacms-icommerceStripe.git
