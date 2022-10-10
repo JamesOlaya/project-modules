@@ -169,3 +169,30 @@
 [submodule "Modules/Icommercestripe"]
 	path = Modules/Icommercestripe
 	url = https://github.com/imagina/imaginacms-icommerceStripe.git
+[submodule "Modules/Icomments"]
+  path = Modules/Icomments
+  url = https://github.com/imagina/imaginacms-icomments.git
+[submodule "Modules/Icommerceauthorize"]
+  path = Modules/Icommerceauthorize
+  url = https://github.com/imagina/imaginacms-icommerceAuthorize.git
+[submodule "Modules/Icommercebraintree"]
+  path = Modules/Icommercebraintree
+  url = https://github.com/imagina/imaginacms-icommerceBraintree.git
+[submodule "Modules/Icommercecoordinadora"]
+  path = Modules/Icommercecoordinadora
+  url = https://github.com/imagina/imaginacms-icommerceCoordinadora.git
+[submodule "Modules/Icommerceopenpay"]
+  path = Modules/Icommerceopenpay
+  url = https://github.com/imagina/imaginacms-icommerceOpenpay.git
+[submodule "Modules/Icommercepaymentez"]
+  path = Modules/Icommercepaymentez
+  url = https://github.com/imagina/imaginacms-icommercePaymentez.git
+[submodule "Modules/Ifeed"]
+  path = Modules/Ifeed
+  url = https://github.com/imagina/imaginacms-ifeed.git
+[submodule "Modules/Ipay"]
+  path = Modules/Ipay
+  url = https://github.com/imagina/imaginacms-ipay.git
+[submodule "Modules/Ipoint"]
+  path = Modules/Ipoint
+  url = https://github.com/imagina/imaginacms-ipoint.git
