@@ -31,6 +31,12 @@
 [submodule "Modules/Iforms"]
 	path = Modules/Iforms
 	url = https://github.com/imagina/imaginacms-iforms.git
+[submodule "Modules/Ifollow"]
+	path = Modules/Ifollow
+	url = https://github.com/imagina/imaginacms-ifollow.git
+[submodule "Modules/Imeeting"]
+	path = Modules/Imeeting
+	url = https://github.com/imagina/imaginacms-imeeting.git
 [submodule "Modules/Ihelpers"]
 	path = Modules/Ihelpers
 	url = https://github.com/imagina/imaginacms-ihelpers.git
