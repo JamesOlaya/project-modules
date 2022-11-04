@@ -59,9 +59,9 @@ return [
          * TenantDatabaseManagers are classes that handle the creation & deletion of tenant databases.
          */
         'managers' => [
-            'sqlite' => Stancl\Tenancy\TenantDatabaseManagers\SQLiteDatabaseManager::class,
+            //'sqlite' => Stancl\Tenancy\TenantDatabaseManagers\SQLiteDatabaseManager::class,
             'mysql' => Stancl\Tenancy\TenantDatabaseManagers\MySQLDatabaseManager::class,
-            'pgsql' => Stancl\Tenancy\TenantDatabaseManagers\PostgreSQLDatabaseManager::class,
+           // 'pgsql' => Stancl\Tenancy\TenantDatabaseManagers\PostgreSQLDatabaseManager::class,
 
         /**
          * Use this database manager for MySQL to have a DB user created for each tenant database.
@@ -89,7 +89,7 @@ return [
      * You can clear cache selectively by specifying the tag.
      */
     'cache' => [
-        'tag_base' => 'tenant', // This tag_base, followed by the tenant_id, will form a tag that will be applied on each cache call.
+        'tag_base' => 'tenantck', // This tag_base, followed by the tenant_id, will form a tag that will be applied on each cache call.
     ],
 
     /**
@@ -198,4 +198,32 @@ return [
         '--class' => 'DatabaseSeeder', // root seeder class
         // '--force' => true,
     ],
+  
+  /**
+   * Planes de modulos para Imagina
+   */
+  "plans" => [
+    "blog" => [
+      "ibanners",
+      "iblog",
+      "iforms",
+      "slider"
+      ],
+    
+    "icommerce" => [
+      "ibanners",
+      "iblog",
+      "icommerce",
+      "icommerceagree",
+      "icommercecheckmo",
+      "icurrency",
+      "slider",
+      "wishlistable"
+    ],
+  ],
+  
+  /**
+   * Role por defecto en la BD central
+   */
+  "defaultCentralRole" => "tenant-owner"
 ];

@@ -70,6 +70,8 @@ return [
         ],
         'api' => [
             'api',
+          'universal',
+          \Stancl\Tenancy\Middleware\InitializeTenancyByDomainOrSubdomain::class
         ],
     ],
 

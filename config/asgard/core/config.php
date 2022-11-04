@@ -7,15 +7,26 @@ return [
     |--------------------------------------------------------------------------
     */
     'CoreModules' => [
-        'core',
-        'dashboard',
-        'user',
-        'workshop',
-        'setting',
-        'media',
-        'tag',
-        'page',
-        'translation',
+      "core",
+      "dashboard",
+      "icustom",
+      "ifillable",
+      "iforms",
+      "ihelpers",
+      "ilocations",
+      "iprofile",
+      "ischedulable",
+      "isearch",
+      "isite",
+      "media",
+      "menu",
+      "notification",
+      "page",
+      "setting",
+      "tag",
+      "translation",
+      "user",
+      "workshop"
     ],
 
     /*

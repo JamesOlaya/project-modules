@@ -37,12 +37,17 @@ class Kernel extends HttpKernel
             \App\Http\Middleware\VerifyCsrfToken::class,
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
             \Spatie\ResponseCache\Middlewares\CacheResponse::class,
+          'universal',
+          \Stancl\Tenancy\Middleware\InitializeTenancyByDomainOrSubdomain::class
         ],
 
         'api' => [
-            'throttle:api',
-            \Illuminate\Routing\Middleware\SubstituteBindings::class,
+          'throttle:api',
+          'universal',
+          \Illuminate\Routing\Middleware\SubstituteBindings::class,
+          \Stancl\Tenancy\Middleware\InitializeTenancyByDomainOrSubdomain::class
         ],
+        'universal' => [],
     ];
 
     /**
