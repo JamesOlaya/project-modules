@@ -56,6 +56,7 @@
         "imagina/user-module": "v8.x-dev",
 
         "imagina/iblog-module": "v8.x-dev",
+        "imagina/ibuilder-module": "v8.x-dev",
         "imagina/iforms-module": "v8.x-dev",
         "imagina/notification-module": "v8.x-dev",
         "imagina/slider-module": "v8.x-dev",
