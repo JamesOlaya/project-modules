@@ -54,7 +54,7 @@
 	url = https://github.com/imagina/imaginacms-imedia.git
 [submodule "Modules/Menu"]
 	path = Modules/Menu
-	url = https://github.com/imagina/imaginacms-imenu.git
+	url = https://github.com/imagina/imaginacms-menu.git
 [submodule "Modules/Notification"]
 	path = Modules/Notification
 	url = https://github.com/imagina/imaginacms-inotifications.git
