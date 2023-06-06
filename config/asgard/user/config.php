@@ -86,7 +86,7 @@ return [
     | Add relations that will be dynamically added to the User entity
      */
     'relations' => [
-    'addresses' => function () {
+    /*'addresses' => function () {
       return $this->hasMany(
         \Modules\Iprofile\Entities\Address::class);
     },
@@ -105,7 +105,7 @@ return [
       return $this->belongsToMany(
         \Modules\Iprofile\Entities\Department::class,
         'iprofile__user_department');
-    }
+    }*/
     ],
     /*
     |--------------------------------------------------------------------------
