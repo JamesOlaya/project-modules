@@ -73,3 +73,6 @@
 [submodule "Modules/Iplaces"]
 	path = Modules/Iplaces
 	url = https://github.com/imagina/imaginacms-iplace.git
+[submodule "Modules/Igamification"]
+	path = Modules/Igamification
+	url = https://github.com/imagina/imaginacms-igamification.git
