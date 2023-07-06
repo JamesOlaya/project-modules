@@ -76,3 +76,9 @@
 [submodule "Modules/Igamification"]
 	path = Modules/Igamification
 	url = https://github.com/imagina/imaginacms-igamification.git
+[submodule "Modules/Iad"]
+	path = Modules/Iad
+	url = https://github.com/imagina/imaginacms-iad.git
+[submodule "Modules/Ifillable"]
+	path = Modules/Ifillable
+	url = https://github.com/imagina/imaginacms-ifillable.git
