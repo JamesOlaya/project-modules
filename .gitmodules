@@ -172,3 +172,6 @@
 [submodule "Modules/Ibuilder"]
 	path = Modules/Ibuilder
 	url = https://github.com/imagina/imaginacms-ibuilder.git
+[submodule "Modules/Icomments"]
+	path = Modules/Icomments
+	url = https://github.com/imagina/imaginacms-icomments.git
