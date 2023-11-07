@@ -175,3 +175,6 @@
 [submodule "Modules/Icomments"]
 	path = Modules/Icomments
 	url = https://github.com/imagina/imaginacms-icomments.git
+[submodule "Modules/Iqreable"]
+	path = Modules/Iqreable
+	url = https://github.com/imagina/imaginacms-iqreable.git
