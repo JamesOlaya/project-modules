@@ -181,3 +181,6 @@
 [submodule "Modules/Ifollow"]
 	path = Modules/Ifollow
 	url = https://github.com/imagina/imaginacms-ifollow.git
+[submodule "Modules/Iwebhooks"]
+	path = Modules/Iwebhooks
+	url = https://github.com/imagina/imaginacms-iwebhook.git
